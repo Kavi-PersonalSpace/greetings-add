@@ -97,4 +97,4 @@ jobs:
         - run:echo
         - shell:bash
           run:|
-              echo argument count is ${{ steps.report-count.outputs.arg-count }} 
+            echo argument count is ${{ steps.report-count.outputs.arg-count }} 
